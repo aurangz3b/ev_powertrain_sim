@@ -23,6 +23,10 @@ The primary objectives achieved include:
 The simulated powertrain consists of an energy storage stage, an intermediate step-up conversion stage, a high-voltage smoothing capacitor, and a traction inverter.
 
 ```
+
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/a7d23aaf-b192-45df-b9c3-73a1128cf237" />
+
+
 +--------------+      +-------------------+      +-------------------+      +-------------------+      +--------------------+
 | Battery Bank | ---> |  DC-DC Converter  | ---> |  DC-Link Buffer   | ---> |  3-Phase Inverter | ---> |  3-Phase AC Load   |
 |   (201.6 V)  |      | (Boost Operation) |      | (888 uF / 500 V)  |      |  (6-Switch IGBT)  |      | (Isolated Neutral) |
