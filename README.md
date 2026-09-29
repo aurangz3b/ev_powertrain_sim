@@ -157,7 +157,9 @@ $$V_{ab,\text{peak}} = m_a \cdot V_{\text{dc}} = 0.70 \times 500\text{ V} = 350\
 
 ```
 ├── models/
-│   ├── ev_powertrain_boost_inverter.slx     # Main Simulink model
+│   ├── buckboost_selfmade.slx               # Initial Buck-Boost model
+│   ├── buckboost_withControl.slx            # Model with Control implementation
+│   ├── buckboostwithinverter.slx            # Main model with Inverter
 │   └── parameters.m                         # Pre-load initialization script
 ├── docs/
 │   ├── waveforms/
@@ -176,7 +178,7 @@ $$V_{ab,\text{peak}} = m_a \cdot V_{\text{dc}} = 0.70 \times 500\text{ V} = 350\
 1. Open MATLAB (R2020b or later recommended with Simscape Electrical).
 2. Set the current directory to the project root.
 3. Open and run `parameters.m` to load system inductance, capacitance, and switching parameters into the workspace.
-4. Open `models/ev_powertrain_boost_inverter.slx`.
+4. Open `models/buckboostwithinverter.slx` (or your other model variants).
 5. Run the model (`Ctrl+T` or `Cmd+T`).
 6. Open `Scope2` to view the three synchronized axes:
 * **Axis 1:** Output Phase Current ($I_a$)
