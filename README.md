@@ -24,14 +24,7 @@ The simulated powertrain consists of an energy storage stage, an intermediate st
 
 <img width="2735" height="1133" alt="forecasting-05-00002-g029" src="https://github.com/user-attachments/assets/92e8393f-5a5e-4cda-86f0-08f8036f268b" />
 
-
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/04808e75-e996-4b02-909f-73b2389e29ed" />
-
 ```
-
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/a7d23aaf-b192-45df-b9c3-73a1128cf237" />
-
-
 +--------------+      +-------------------+      +-------------------+      +-------------------+      +--------------------+
 | Battery Bank | ---> |  DC-DC Converter  | ---> |  DC-Link Buffer   | ---> |  3-Phase Inverter | ---> |  3-Phase AC Load   |
 |   (201.6 V)  |      | (Boost Operation) |      | (888 uF / 500 V)  |      |  (6-Switch IGBT)  |      | (Isolated Neutral) |
