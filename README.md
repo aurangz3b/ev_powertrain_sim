@@ -22,6 +22,11 @@ The primary objectives achieved include:
 
 The simulated powertrain consists of an energy storage stage, an intermediate step-up conversion stage, a high-voltage smoothing capacitor, and a traction inverter.
 
+<img width="2735" height="1133" alt="forecasting-05-00002-g029" src="https://github.com/user-attachments/assets/92e8393f-5a5e-4cda-86f0-08f8036f268b" />
+
+
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/04808e75-e996-4b02-909f-73b2389e29ed" />
+
 ```
 
 <img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/a7d23aaf-b192-45df-b9c3-73a1128cf237" />
